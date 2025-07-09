@@ -47,8 +47,9 @@ mostrarData()
 //"Olá, [nome]!"
 //Exemplo: cumprimentar("Lucas") → "Olá, Lucas!"
 
-function cumprimentar(nome){
-    var mensagem =Olá ${nome}!;
-    console.log(mensagem)
+function cumprimentar(nome) {
+    var mensagem = `Olá ${nome}!`;
+    console.log(mensagem);
 }
-cumprimentar("rafael")
+
+cumprimentar("rafael");
