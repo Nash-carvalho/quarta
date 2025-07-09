@@ -1,4 +1,26 @@
- // explicação
+function contarNegativos(arr) {
+  let contador = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] < 0) {
+      contador++;
+    }
+  }
+  return contador;
+}
+
+// Exemplo de uso:
+const numeros = [5, -2, 0, -7, 3];
+console.log(contarNegativos(numeros)); // Saída: 2
+
+// Exemplo de uso:
+const numeros = [5, -2, 0, -7, 3];
+console.log(contarNegativos(numeros)); // Saída: 2crie
+
+
+
+
+
+// explicação
  
  function verificarIdade (idade) {
     if (idade >=18){
