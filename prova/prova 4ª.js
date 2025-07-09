@@ -1,3 +1,13 @@
+function ehPar(numero) {
+  return numero % 2 === 0;
+}
+console.log(ehPar(4)); // true (4 é par)
+console.log(ehPar(7)); // false (7 é ímpar)
+
+
+
+
+
 function contarNegativos(arr) {
   let contador = 0;
   for (let i = 0; i < arr.length; i++) {
